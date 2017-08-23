@@ -9,6 +9,9 @@
         <li>
           <router-link to="/login">Login</router-link>
         </li>
+        <li>
+          <a @click="logout">Logout</a>
+        </li>
       </ul>
     </div>
   </nav>
@@ -16,7 +19,14 @@
 
 <script>
 export default {
-  name: 'navbar'
+  name: 'navbar',
+  methods: {
+    logout () {
+      console.log('process logout')
+      localStorage.removeItem('access_token')
+      this.$router.go('/')
+    }
+  }
 }
 </script>
 
