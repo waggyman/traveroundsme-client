@@ -60,8 +60,9 @@ export default {
         'password': this.password,
         'scope': '*'
       })
-
-      console.log(res)
+      const accessToken = res.data.access_token
+      localStorage.setItem('access_token', accessToken)
+      console.log(localStorage.getItem('access_token'))
     }
   }
 }
