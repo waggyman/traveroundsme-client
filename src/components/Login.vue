@@ -70,8 +70,7 @@ export default {
 
 <style>
   .tv-login-page {
-    background: linear-gradient(rgba(0,0,0,0.4),rgba(0,0,0,0.4)),
-    url('https://static.pexels.com/photos/220444/pexels-photo-220444.jpeg') center center no-repeat;
+    background: linear-gradient(rgba(0,0,0,0.4),rgba(0,0,0,0.4)), url('https://static.pexels.com/photos/220444/pexels-photo-220444.jpeg') center center no-repeat;
   }
   .tv-container {
     padding: 10px 20px;
@@ -106,11 +105,5 @@ export default {
   }
   .light-label {
     color: #f5f5f5 !important;
-  }
-  .tv-header {
-    color: #f5f5f5;
-    font-size: 46px;
-    font-weight: 700;
-    text-align: center
   }
 </style>
