@@ -24,6 +24,7 @@ html {
   min-height: 660px;
 }
 @import '../node_modules/bulma/css/bulma.css';
+@import url('https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css');
 body {
   margin: 0;
 }
@@ -69,4 +70,35 @@ header span {
 .m-10 {
   margin-top: 10px;
 }
+.mb-0 {
+  margin-bottom: 0 !important;
+}
+.tv-header {
+    color: #f5f5f5;
+    font-size: 46px;
+    font-weight: 700;
+    text-align: center
+  }
+  .pull-left {
+    float: left !important;
+  }
+  .tv-text-left {
+    text-align: left !important;
+  }
+  .tv-text-center {
+    text-align: center !important;
+  }
+  .tv-form-control {
+    width: 100%;
+    padding: 8px 36px;
+    line-height: 16px;
+    font-size: 14px;
+  }
+  .tv-form-inline-icon {
+    position: absolute;
+    top: 0;
+    color: #00B467;
+    width: 2.25em !important;
+    height: 2.25em !important;
+  }
 </style>
